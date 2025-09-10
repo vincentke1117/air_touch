@@ -30,11 +30,11 @@ This repository currently contains initial scaffolding for a demo page and confi
 
 ### Tampermonkey userscript
 
-1. Build the single-file userscript:
+1. Build the userscript so that `packages/userscript/src/index.ts` is bundled into a single file:
    ```bash
    npm run build:userscript
    ```
-   This outputs `packages/userscript/dist/gesturesurf.user.js`.
+   The command outputs `packages/userscript/dist/gesturesurf.user.js`.
 2. In Tampermonkey, open **Utilities → Install from file** and pick the generated `gesturesurf.user.js`.
 3. Enable the script and refresh any page to experiment with pinch‑to‑click, drag, and scrolling gestures.
 
