@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "echo 'No tests yet'",
-    "build:userscript": "npm --workspace packages/userscript run build"
+    "test": "echo 'No tests yet'"
   },
   "workspaces": [
     "packages/userscript",

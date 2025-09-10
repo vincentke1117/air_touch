@@ -1,5 +1,3 @@
 node_modules/
 dist/
 packages/demo/dist/
-!packages/userscript/dist/
-!packages/userscript/dist/gesturesurf.user.js
