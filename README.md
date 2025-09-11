@@ -33,5 +33,4 @@ This repository currently contains initial scaffolding for a demo page and confi
 1. Build the userscript with your preferred bundler so that `packages/userscript/src/index.ts` is compiled into a single userscript file.
 2. Install the generated script into Tampermonkey via “Utilities → Install from file”.
 3. Enable the script and refresh any page to experiment with pinch‑to‑click, drag, and scrolling gestures.
-
 The project is still in an early prototype stage, so the build pipeline and full gesture set are subject to change.

@@ -1,0 +1,12 @@
+{
+  "name": "@gesturesurf/userscript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --format=iife --platform=browser --target=es2017 --outfile=dist/gesturesurf.user.js --banner:js=\"// ==UserScript==\n// @name         GestureSurf - Camera Gesture Control for Web\n// @namespace    https://gesturesurf.app/assumption\n// @match        *://*/*\n// @grant        none\n// @run-at       document-idle\n// ==/UserScript==\n\""
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.4",
+    "typescript": "^5.4.5"
+  }
+}
